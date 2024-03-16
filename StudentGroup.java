@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.List;
 
-public class StudentGroup implements Iterable<Student>{
+public class StudentGroup implements Iterable<Student> {
     private List<Student> studentList;
 
     public StudentGroup(List<Student> studentList) {
@@ -15,7 +15,8 @@ public class StudentGroup implements Iterable<Student>{
     public void setStudentList(List<Student> studentList) {
         this.studentList = studentList;
     }
-    public void addStudent(Student student){
+
+    public void addStudent(Student student) {
         studentList.add(student);
     }
 
